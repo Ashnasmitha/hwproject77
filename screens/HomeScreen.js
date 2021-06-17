@@ -34,39 +34,38 @@ export default class HomeScreen extends React.Component{
         )
     }
 }
-
 const styles= StyleSheet.create({
     droidSafeArea:{
         marginTop:Platform.OS === "android" ? StatusBar.currentHeight:0
     },
     button:{
-        flex:0.25,
+        flex:0.12,
         marginLeft:50,
-        marginLeft:50,
-        marginTop:20,
+        marginRight:50,
+        marginTop:30,
         borderRadius:30,
         backgroundColor:'white'
     },
     text:{
-        fontSize:35,
+        fontSize:25,
         fontWeight:'bold',
         color:'rgb(236,55,171)',
-        marginTop:75,
+        marginTop:35,
         paddingLeft:30,
         justifyContent:'center',
         alignItems:'center'
     },
     iconImage:{
         position:'absolute',
-        height:200,
-        width:200,
+        height:80,
+        width:80,
         resizeMode:'contain',
         right:-30,
-        top:-80
+        top:-20,
     },
     image:{
-        height:300,
-        width:300,  
+        height:200,
+        width:250,  
         marginTop:20
     },
     backgroundImage:{
